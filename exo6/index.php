@@ -24,14 +24,14 @@
           <main>
             <?php
               // On crée un tableau avec la méthode array
-              $department = array(
-                '59' => 'Nord', // On lie deux valeurs avec la flèche "=>" comme suit clef => valeur
+              $area = array(
+                '59' => 'Nord', // On lie deux valeurs avec la flèche "=>" comme suit : clef => valeur
                 '62' => 'Pas-de-Calais', // puis on les sépare avec une virgule pour passer aux valeurs suivantes
                 '80' => 'Somme',
                 '60' => 'Oise',
                 '02' => 'Aisne',
               );
-              echo $department['59']; // On affiche la valeur de l'index 59 positionnant la array à la clé susmentionnée.
+              echo $area['59']; // On affiche la valeur de l'index 59 positionnant la array à la clé susmentionnée.
             ?>
           </main>
           <!-- footer -->

@@ -24,19 +24,33 @@
           <main>
             <?php
               // On crée un tableau avec la méthode array
-              $department = array(
+              $area = array(
                 '59' => 'Nord', // On lie deux valeurs avec la flèche "=>" comme suit clef => valeur
                 '62' => 'Pas-de-Calais', // puis on les sépare avec une virgule pour passer aux valeurs suivantes
                 '80' => 'Somme',
                 '60' => 'Oise',
                 '02' => 'Aisne',
               );
-              // On affiche les valeurs du tableau à l'aide d'une boucle foreach et de deux variables
-              // La méthode foreach est impérative étant donné qu'il s'agit d'un dont les élément ont de multiples valeurs
-              foreach ($department as $index => $valeur){
-                echo '<p>' . $index . ' - ' . $valeur . '</p>';
-              }
             ?>
+            <table class="table table-bordered table-hover">
+              <thead class="text-center bg-dark text-white">
+                <th>Code postal</th>
+                <th>Nom de département</th>
+              </thead>
+              <tbody>
+                <?php
+                  // On affiche les valeurs du tableau à l'aide d'une boucle foreach et de deux variables
+                  foreach ($area as $index => $valeur){
+                ?>
+                <tr class="text-center">
+                  <td><?= $index ?></td>
+                  <td><?= $valeur ?></td>
+                </tr>
+                <?php
+                }
+                ?>
+              </tbody>
+            </table>
           </main>
           <!-- footer -->
           <footer>

@@ -25,11 +25,11 @@
             <?php
               // On crée un tableau avec la méthode array
               $months = array('janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre');
-              for ($num = 0; $num < 12; $num++){ // On crée une boucle (intialisation, condition, incrémentation)
+              foreach ($months as $month){ // On crée une boucle foreach : $array as $elementOfArray
             ?>
             <p>
-              <?php
-                  echo $months[$num]; // On affiche le tableau avec echo $nomArray[$nomLoop]
+              <?=
+                $month; // On affiche le tableau
                 }
               ?>
             </p>

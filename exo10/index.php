@@ -25,7 +25,7 @@
           <main>
             <?php
               // On crée un tableau avec la méthode array
-              $department = array(
+              $area = array(
                 '59' => 'Nord', // On lie deux valeurs avec la flèche "=>" comme suit clef => valeur
                 '62' => 'Pas-de-Calais', // puis on les sépare avec une virgule pour passer aux valeurs suivantes
                 '80' => 'Somme',
@@ -34,7 +34,7 @@
               );
               // On affiche les valeurs du tableau à l'aide d'une boucle foreach et de deux variables
               // La méthode foreach est impérative étant donné qu'il s'agit d'un dont les élément ont de multiples valeurs
-              foreach ($department as $index => $valeur){
+              foreach ($area as $index => $valeur){
             ?>
             <p>
               <?php
