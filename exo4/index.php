@@ -23,10 +23,11 @@
           <!-- main -->
           <main>
             <?php
+              // Création d'un tableau avec la méthode array
               $months = array('janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'aout', 'septembre', 'octobre', 'novembre', 'décembre');
-              $months[8] = 'août';
-              echo $months[8];
-             ?>
+              $months[7] = 'août'; // On se positionne à la huitième place du tableau et on modofie sa valeur.
+              echo $months[7]; // On l'affiche.
+            ?>
           </main>
           <!-- footer -->
           <footer>

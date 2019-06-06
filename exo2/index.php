@@ -23,9 +23,10 @@
           <!-- main -->
           <main>
             <?php
+              // Création d'un tableau avec la méthode array
               $months = array('janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre');
-              echo $months[2];
-             ?>
+              echo $months[2]; // On affiche la troisième valeur
+            ?>
           </main>
           <!-- footer -->
           <footer>

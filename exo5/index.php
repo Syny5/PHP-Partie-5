@@ -23,14 +23,15 @@
           <!-- main -->
           <main>
             <?php
+              // On crée un tableau avec la méthode array
               $department = array(
-                '59' => 'Nord',
-                '62' => 'Pas-de-Calais',
+                '59' => 'Nord', // On lie deux valeurs avec la flèche "=>" comme suit clef => valeur
+                '62' => 'Pas-de-Calais', // puis on les sépare avec une virgule pour passer aux valeurs suivantes
                 '80' => 'Somme',
                 '60' => 'Oise',
                 '02' => 'Aisne',
               );
-             ?>
+            ?>
           </main>
           <!-- footer -->
           <footer>

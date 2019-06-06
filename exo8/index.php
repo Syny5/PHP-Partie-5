@@ -23,12 +23,16 @@
           <!-- main -->
           <main>
             <?php
+              // On crée un tableau avec la méthode array
               $months = array('janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre');
-              for ($num = 0; $num < 12; $num++){
-                echo '<p>' . $months[$num] . '</p>';
-              }
-             ?>
-
+              for ($num = 0; $num < 12; $num++){ // On crée une boucle (intialisation, condition, incrémentation)
+            ?>
+            <p>
+              <?php
+                  echo $months[$num]; // On affiche le tableau avec echo $nomArray[$nomLoop]
+                }
+              ?>
+            </p>
           </main>
           <!-- footer -->
           <footer>

@@ -23,9 +23,10 @@
           <!-- main -->
           <main>
             <?php
+              // Création d'un tableau avec la méthode array
               $months = array('janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre');
-              echo $months[5];
-             ?>
+              echo $months[5]; // On affiche la valeur de l'index 5, qui correspond à la 6ème valeur du tableau.
+            ?>
           </main>
           <!-- footer -->
           <footer>

@@ -37,8 +37,9 @@
           <!-- main -->
           <main>
             <?php
+              // Création d'un tableau avec la méthode array
               $months = array('janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre');
-             ?>
+            ?>
           </main>
           <!-- footer -->
           <footer>
